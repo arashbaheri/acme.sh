@@ -1,0 +1,3 @@
+apt update
+apt install socat
+./acme.sh --issue -d <DOMAIN_NAME> --standalone -m <COMPANY_EMAIL> --server zerossl
